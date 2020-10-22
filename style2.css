@@ -1,0 +1,376 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.container_extra_large{
+    width: 456px;
+    
+}
+
+/* Augšējo apaļo pogu formatējums*/
+.container_apalajam{
+    width: 456px;
+    }
+
+.column_a,.column_a1 {
+    float: left;
+    width: 25%;
+    height: 167px;
+    background-color: #EEEEEE;
+}
+.column_a2,.column_a3 {
+    float: left;
+    width: 25%;
+    height: 167px;
+    background-color: #303030;
+}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* tukšā līnija starp augšējo un apakšējo pogu kastēm*/
+.container_tuksumam{
+    width: 456px;
+    
+}
+
+.column_t,.column_t1,.column_t2,.column_t3{
+    float: left;
+    width: 25%;
+    height: 24px;
+    background-color: white;
+}
+
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* otrais lielais box ar pogām formatējums pa kolonnām*/
+
+.container{
+    width: 456px;
+    }
+
+.column1,.column2 {
+    float: left;
+    width: 25%;
+    height: 486px;
+    background-color: #EEEEEE;
+}
+
+.column3,.column4  {
+    float: left;
+    width: 25%;
+    height: 486px;
+    background-color: #303030;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* formēju tekstu, kas atrpdas otra box pirms pogām*/
+
+.div11, .div2{
+    margin-top: 60px;
+    color: white;
+    margin-left: 30px;
+
+}
+
+.div1, .div21{
+    margin-top: 60px;
+    color: black;
+    margin-left: 30px;
+
+}
+/* otrās kastes pogu formatējums priekš black screen*/
+
+.button_first_template_11,.button_second_template_1{
+border: none;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 14px;
+line-height: 16px;
+border-radius: 2px;
+align-items: center;
+margin-left: 20px;
+margin-top: 80px;
+}
+
+.button_first_template_11{
+    color: #80CBC4;
+    background-color: transparent;
+ }
+
+.button_first_template_11:hover{
+text-decoration: underline; 
+text-decoration-color: blue;  
+}
+
+.button_second_template_1{
+color:white;
+background: linear-gradient(0deg, #92CBC5, #92CBC5), #009688;
+ }
+
+.button_second_template_1:hover{
+    text-decoration: underline; 
+    text-decoration-color: blue;  
+}
+
+.button_third_template_1,.button_forth_template_1{
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 2px;  
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.button_third_template_1{
+    color:#80CBC4;
+    background: linear-gradient(0deg, rgba(204, 204, 204, 0.25), rgba(204, 204, 204, 0.25));
+ }
+
+    .button_third_template_1:hover{
+        text-decoration: underline; 
+        text-decoration-color: blue;  
+  }
+
+  .button_forth_template_1{
+    color: white;
+    background: linear-gradient(0deg, #92CBC5, #92CBC5), #009688;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12), 0px 8px 8px rgba(0, 0, 0, 0.24);
+
+ }
+    .button_forth_template_1:hover{
+        text-decoration: underline; 
+        text-decoration-color: blue;  
+  }
+
+  .button_fifth_template_1,.button_sixth_template_1{
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    align-items: center;
+    line-height: 16px;
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+
+  .button_fifth_template_1{
+    color: rgba(255, 255, 255, 0.3);
+    background-color: transparent;
+      }
+    .button_fifth_template_1:hover{
+        text-decoration: underline; 
+        text-decoration-color: blue;  
+  }
+
+  .button_sixth_template_1{
+    color: rgba(0, 0, 0, 0.38);
+    background: linear-gradient(0deg, rgba(204, 204, 204, 0.12), rgba(204, 204, 204, 0.12));
+ }
+
+    .button_sixth_template_1:hover{
+        text-decoration: underline; 
+        text-decoration-color: blue;  
+  }
+
+/* šeit formējam daļu, kas atrodas kreisajā pusē (nav melnā daļa')*/
+
+.button_first_template,.button_second_template{
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    border-radius: 2px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+  
+.button_first_template{
+    color: #009688;
+      }
+
+.button_first_template:hover{
+text-decoration: underline; 
+text-decoration-color: blue;  
+}
+
+.button_second_template{
+color:white;
+background-color: #009688;
+ }
+
+.button_second_template:hover{
+    text-decoration: underline; 
+    text-decoration-color: blue;  
+}
+
+.button_third_template,.button_forth_template{
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    border-radius: 2px;  
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.button_third_template{
+color:#009688;
+background: linear-gradient(0deg, rgba(153, 153, 153, 0.2), rgba(153, 153, 153, 0.2));
+}
+.button_third_template:hover{
+    text-decoration: underline; 
+    text-decoration-color: blue;  
+}
+
+.button_forth_template{
+color: white;
+background: linear-gradient(0deg, rgba(189, 189, 189, 0.3), rgba(189, 189, 189, 0.3)), #009688;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12), 0px 8px 8px rgba(0, 0, 0, 0.24);
+}
+.button_forth_template:hover{
+    text-decoration: underline; 
+    text-decoration-color: blue;  
+}
+
+.button_fifth_template,.button_sixth_template{
+border: none;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 14px;
+align-items: center;
+line-height: 16px;
+margin-left: 20px;
+margin-top: 100px;
+}
+
+.button_fifth_template{
+color:rgba(0, 0, 0, 0.38);
+}
+.button_fifth_template:hover{
+    text-decoration: underline; 
+    text-decoration-color: blue;  
+}
+
+.button_sixth_template{
+color: rgba(0, 0, 0, 0.38);
+background: linear-gradient(0deg, rgba(79, 79, 79, 0.26), rgba(79, 79, 79, 0.26));
+}
+.button_sixth_template:hover{
+    text-decoration: underline; 
+    text-decoration-color: blue;  
+}
+
+/* plusiņu pogu sadaļa*/
+
+.button_first_template_1{
+    background-color:#009688;
+    border: 0.5px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12), 0px 8px 8px rgba(0, 0, 0, 0.24);
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+    margin-top: 60px;
+    margin-left: 20px;
+    
+  }
+  /*balta plusiņa formēšana pirmā poga*/
+  .button_pluss_element{
+   fill: white;
+   align-items: center;
+     }
+  
+  /* otrās pogas formēšana ar plusiņu*/
+  .button_first_template_2{
+  background-color:#009688;
+  border: 0.5px;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.12), 0px 14px 14px rgba(0, 0, 0, 0.237602);
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  margin-top: 60px;
+  margin-left: 30px;
+  }
+  
+  /*balta plusiņa formēšana otrā poga*/
+  .button_pluss_element_2{
+    fill: white;
+    align-items: center;
+  }
+
+/* podziņas ar plusiņu black screen centrēšana un citi propertiji
+
+
+/*pirmā poga ar plusiņu black screen*/
+
+.button_first_template_111{
+background-color:#009688;
+border: 0.5px;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12), 0px 8px 8px rgba(0, 0, 0, 0.24);
+border-radius: 50%;
+ height: 42px;
+width: 42px;
+margin-top: 60px;
+margin-left: 30px;
+
+
+}
+/*balta plusiņa formēšana pirmā poga black screen*/
+.button_pluss_element{
+fill: white;
+align-items: center;
+ }
+
+/* otrās pogas formēšana ar plusiņu black screen*/
+.button_first_template_21{
+background-color:#009688;
+border: 0.5px;
+box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.12), 0px 14px 14px rgba(0, 0, 0, 0.237602);
+border-radius: 50%;
+height: 42px;
+width: 42px;
+margin-top: 60px;
+margin-left: 30px;
+}
+
+/*balta plusiņa formēšana otrā poga black screen*/
+.button_pluss_element_21{
+fill: white;
+align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
